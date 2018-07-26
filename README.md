@@ -1,13 +1,17 @@
 Ansible Role: pyenv
 =========
 
-This role will setup pyenv on a server, install required python version,
-create virtualenv, and install requirements.
+This role can do these on target hosts:
+
+- install and setup pyenv
+- install python version if required
+- create virtualenv with above python version if required
+- install requirements in above virtualenv if required
 
 Requirements
 ------------
 
-None
+The target hosts need to have `apt` to install deb packages.
 
 Role Variables
 --------------
