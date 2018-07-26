@@ -1,0 +1,12 @@
+---
+# change to ~/.zshrc if you use zsh
+shell_rc: ~/.bashrc
+
+# pyenv install --list to view all
+python_version: 3.7.0
+
+# will create virtualenv if defined
+virtualenv_name: py3
+
+# change to your own one
+requirements_path: 'files/requirements-example.txt'

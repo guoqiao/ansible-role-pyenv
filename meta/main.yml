@@ -1,0 +1,22 @@
+---
+dependencies: []
+
+galaxy_info:
+  author: guoqiao
+  description: Setup pyenv, install required Python version, and create virtualenv.
+  company: Catalyst IT
+
+  license: MIT
+
+  min_ansible_version: 2.5
+
+  platforms:
+    - name: Debian
+      versions:
+        - all
+
+  galaxy_tags:
+    - python
+    - python3
+    - pyenv
+    - virtualenv

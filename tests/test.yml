@@ -1,0 +1,30 @@
+#!/usr/bin/env ansible-playbook
+---
+
+- name: test pyenv role
+  hosts: ubuntu
+  roles:
+
+    - role: pyenv
+      python_version: 2.7.15
+      virtualenv_name: py2
+
+    - role: pyenv
+      python_version: 3.7.0
+      virtualenv_name: py3
+
+    - role: pyenv
+      python_version: anaconda3-5.2.0
+      virtualenv_name: anaconda3
+
+    - role: pyenv
+      python_version: miniconda3-4.3.30
+      virtualenv_name: miniconda3
+
+    - role: pyenv
+      python_version: pypy2.7-6.0.0
+      virtualenv_name: pypy2
+
+    - role: pyenv
+      python_version: pypy3.5-6.0.0
+      virtualenv_name: pypy3
