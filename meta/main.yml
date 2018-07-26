@@ -2,8 +2,11 @@
 dependencies: []
 
 galaxy_info:
+  role_name: pyenv
   author: guoqiao
-  description: Setup pyenv, install required Python version, and create virtualenv.
+  description: >
+    Setup pyenv, install required Python version,
+    create virtualenv, and install requirements.
   company: Catalyst IT
 
   license: MIT
@@ -14,9 +17,14 @@ galaxy_info:
     - name: Debian
       versions:
         - all
+    - name: Ubuntu
+      versions:
+        - all
 
   galaxy_tags:
     - python
     - python3
     - pyenv
     - virtualenv
+    - anoconda
+    - pypy
