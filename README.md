@@ -32,7 +32,7 @@ Example Playbook
         - role: pyenv
           shell_rc: "~/.zshrc",
           python_version: "3.7.0",
-          virutalenv_name: "py370",
+          virtualenv_name: "py370",
           requirements_path: "files/requirements.txt"
 
 Also refer to `tests/test.yml`
